@@ -1,4 +1,4 @@
-import React, {useReducer} from 'react';
+import React, { useReducer } from 'react';
 
 type Action= { type: 'INCREASE' } | { type: 'DECREASE' };
 //useReducer 사용할때는 Action에 대한 타입을 정리하고, reducer를 구현하면된다.
