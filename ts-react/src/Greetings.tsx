@@ -15,7 +15,7 @@ function Greetings({ name, mark, optional, onClick }: GreetingsProps) {
             {optional && <p>{optional}</p>}
             <div>
                 <button onClick={handleClick}>
-                    Click Me!
+                    Click!
                 </button>
             </div>
         </div>
