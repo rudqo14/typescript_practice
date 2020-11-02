@@ -1,8 +1,12 @@
 import React from 'react';
-import Counter from './counter';
+import MyFrom from './MyForm';
 
 const App: React.FC = () => {
-  return <Counter/>
+  const onSubmit = (form: {name: string; description:string;}) => {
+    console.log(form);
+  };
+
+  return <MyFrom onSubmit={onSubmit} />;
 }
 
 export default App;
