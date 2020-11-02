@@ -1,4 +1,5 @@
 ### typescript_practice
+프로젝트에 적용하기 위한 타입스크립트 
 
 1. CRA(create-react-app)을 사용하여 타입스크립트 작업 환경 및 기본 타입 적용
 
